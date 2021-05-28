@@ -1,0 +1,8 @@
+Nome tabella : Blog Users
+
+Colonne: 
+1. Nome
+2. Cognome
+3. Età
+4. Email
+5. Password
