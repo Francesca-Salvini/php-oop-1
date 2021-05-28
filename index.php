@@ -23,35 +23,35 @@ $password = User::getNewPassword();
 $francesca = new User('Francesca', 'Bianchi', $password);
 $francesca->eta = 23;
 $francesca->email = 'francesca@gmail.com';
-var_dump($francesca); 
+// var_dump($francesca); 
 
 // Istanza n.2 - Elisa
 $password = User::getNewPassword();
 $elisa = new User('Elisa', 'Gialli', $password);
 $elisa->eta = 24;
 $elisa->email = 'elisa@hotmail.com';
-var_dump($elisa);
+// var_dump($elisa);
 
 // Istanza n.3 - Marco
 $password = User::getNewPassword();
 $marco = new User('Marco', 'Rossi', $password);
 $marco->eta = 36;
 $marco->email = 'marco@hotmail.it';
-var_dump($marco);
+// var_dump($marco);
 
 // Istanza n.4 - Giovanni
 $password = User::getNewPassword();
 $giovanni = new User('Giovanni', 'Verdi', $password);
 $giovanni->eta = 58;
 $giovanni->email = 'giovanni@libero.it';
-var_dump($giovanni);
+// var_dump($giovanni);
 
 // Istanza n.5 - Pietro
 $password = User::getNewPassword();
 $pietro = new User('Pietro', 'Arancio', $password);
 $pietro->eta = 19;
 $pietro->email = 'pietro@yahoo.com';
-var_dump($pietro);
+// var_dump($pietro);
 
 
 $users = [$francesca, $elisa, $marco, $giovanni, $pietro];
